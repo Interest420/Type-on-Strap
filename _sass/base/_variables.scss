@@ -39,7 +39,7 @@ $blockquote-color: #E5F7EB; // $background-color;
 // Header
 $header-background-color: #A2DF19;  // Only used when no header image (header under-text?)
 $header-text-color: #64B241;
-$header-link-color: #E06666; // links on top left and top right
+$header-link-color: #B45050; // links on top left and top right
 $navbar-separator-opacity: 0;
 
 // Feature image for articles
@@ -48,7 +48,7 @@ $feature-image-size: cover; // options include "cover", "contain", "auto"
 
 //Search colours
 $link-shadow: transparentize($link-color, .5); //rgba(75, 210, 75, 0.5);
-$text-shadow: #4F8E34;
+$text-shadow: #2D333B;
 $search-color: #50A0B1;
 
 
@@ -63,7 +63,7 @@ $base00: #E5F7EB !default; // Default Background
 $base01: #444c56 !default; // Lighter Background (Used for status bars)
 $base02: #3C7FBC !default; // Selection Background
 $base03: #ECB612 !default; // Comments, Invisibles, Line Highlighting
-$base04: #E06666 !default; // Dark Foreground (Used for status bars)
+$base04: #B45050 !default; // Dark Foreground (Used for status bars)
 $base05: #59A13B !default; // Default Foreground, Caret, Delimiters, Operators
 $base06: #64B241 !default; // Light Foreground (Not often used)
 $base07: #8F8E8E !default; // Light Background (Not often used)
