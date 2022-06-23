@@ -30,7 +30,7 @@ $background-color: #BCBCBC;
 $border-color: rgba(132, 132, 132, 0.3); // rgba recommended if using feature images
 
 // Typography colours
-$text-color: #F5CF5E; // main body text color
+$text-color: #59A13B; // main body text color
 $meta: #ECB612; //lowest gray for accessible color
 $link-color: #CF5858; // when mousing over green text
 $selection-color: #3C7FBC; // visible when highlighting text
@@ -38,7 +38,7 @@ $blockquote-color: #E5F7EB; // $background-color;
 
 // Header
 $header-background-color: #A2DF19;  // Only used when no header image (header under-text?)
-$header-text-color: #FFC992;
+$header-text-color: #64B241;
 $header-link-color: #E06666; // links on top left and top right
 $navbar-separator-opacity: 0;
 
@@ -48,7 +48,7 @@ $feature-image-size: cover; // options include "cover", "contain", "auto"
 
 //Search colours
 $link-shadow: transparentize($link-color, .5); //rgba(75, 210, 75, 0.5);
-$text-shadow: #F5A24B;
+$text-shadow: #4F8E34;
 $search-color: #50A0B1;
 
 
@@ -64,8 +64,8 @@ $base01: #444c56 !default; // Lighter Background (Used for status bars)
 $base02: #3C7FBC !default; // Selection Background
 $base03: #ECB612 !default; // Comments, Invisibles, Line Highlighting
 $base04: #E06666 !default; // Dark Foreground (Used for status bars)
-$base05: #F5CF5E !default; // Default Foreground, Caret, Delimiters, Operators
-$base06: #FFC992 !default; // Light Foreground (Not often used)
+$base05: #59A13B !default; // Default Foreground, Caret, Delimiters, Operators
+$base06: #64B241 !default; // Light Foreground (Not often used)
 $base07: #8F8E8E !default; // Light Background (Not often used)
 $base08: #d40059 !default; // Variables, XML Tags, Markup Link Text, Markup Lists, Diff Deleted
 $base09: #ff5c00 !default; // Integers, Boolean, Constants, XML Attributes, Markup Link Url
