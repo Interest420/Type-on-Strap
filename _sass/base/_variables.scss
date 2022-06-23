@@ -24,30 +24,30 @@ $sm-break: 576px;
 $x-sm-break: 300px;
 
 // Brand colours
-$theme-color: #00a8e0;
-$brand-color: #22272e;
-$background-color: #22272e;
+$theme-color: #4a9c25;
+$brand-color: #1f1f1f;
+$background-color: #1f1f1f;
 $border-color: rgba(255, 255, 255, 0.5); // rgba recommended if using feature images
 
 // Typography colours
-$text-color: #cdd9e5;
-$meta: #909dab; //lowest gray for accessible color
-$link-color: #00a8e0;
-$selection-color: #545d68; // visible when highlighting text
+$text-color: #2cd932;
+$meta: #6dcc45; //lowest gray for accessible color
+$link-color: #4a9c25;
+$selection-color: #5f4d31; // visible when highlighting text
 $blockquote-color: #373e47; // $background-color;
 
 // Header
-$header-background-color: #2A3444;  // Only used when no header image
-$header-text-color: #e7f3f4;
-$header-link-color: #adbac7;
+$header-background-color: #060708;  // Only used when no header image
+$header-text-color: #56DF1A;
+$header-link-color: #D9A307;
 $navbar-separator-opacity: 0;
 
 // Feature image for articles
-$feature-image-text-color: #22272e;
+$feature-image-text-color: #1f1f1f;
 $feature-image-size: cover; // options include "cover", "contain", "auto"
 
 //Search colours
-$link-shadow: transparentize($link-color, .6); //rgba(26, 188, 156, 0.6);
+$link-shadow: transparentize($link-color, .3); //rgba(75, 210, 75, 0.5);
 $text-shadow: #3f3f3f;
 $search-color: #999;
 
@@ -61,17 +61,17 @@ $border-radius: 4px !default;
 // base16 Material Theme // using dark theme
 $base00: #373e47 !default; // Default Background
 $base01: #444c56 !default; // Lighter Background (Used for status bars)
-$base02: #545d68 !default; // Selection Background
-$base03: #909dab !default; // Comments, Invisibles, Line Highlighting
-$base04: #adbac7 !default; // Dark Foreground (Used for status bars)
-$base05: #cdd9e5 !default; // Default Foreground, Caret, Delimiters, Operators
-$base06: #e7f3f4 !default; // Light Foreground (Not often used)
+$base02: #5f4d31 !default; // Selection Background
+$base03: #6dcc45 !default; // Comments, Invisibles, Line Highlighting
+$base04: #D9A307 !default; // Dark Foreground (Used for status bars)
+$base05: #2cd932 !default; // Default Foreground, Caret, Delimiters, Operators
+$base06: #56DF1A !default; // Light Foreground (Not often used)
 $base07: #ffffff !default; // Light Background (Not often used)
 $base08: #d40059 !default; // Variables, XML Tags, Markup Link Text, Markup Lists, Diff Deleted
 $base09: #ff5c00 !default; // Integers, Boolean, Constants, XML Attributes, Markup Link Url
 $base0a: #d9b600 !default; // Classes, Markup Bold, Search Text Background
 $base0b: #6bac00 !default; // Strings, Inherited Class, Markup Code, Diff Inserted
-$base0c: #00a8e0 !default; // Support, Regular Expressions, Escape Characters, Markup Quotes
+$base0c: #4a9c25 !default; // Support, Regular Expressions, Escape Characters, Markup Quotes
 $base0d: #b37eff !default; // Functions, Methods, Attribute IDs, Headings
 $base0e: #00af9e !default; // Keywords, Storage, Selector, Markup Italic, Diff Changed
 $base0f: #ff66c2 !default; // Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php ?>
