@@ -24,22 +24,22 @@ $sm-break: 576px;
 $x-sm-break: 300px;
 
 // Brand colours
-$theme-color: #CF5858;
-$brand-color: #1f1f1f;
+$theme-color: #CF5858; // link color (footer)
+$brand-color: #1f1f1f; //background
 $background-color: #1f1f1f;
 $border-color: rgba(132, 132, 132, 0.3); // rgba recommended if using feature images
 
 // Typography colours
-$text-color: #2cd932;
+$text-color: #2cd932; // main body text color
 $meta: #6dcc45; //lowest gray for accessible color
-$link-color: #CF5858;
+$link-color: #CF5858; // when mousing over green text
 $selection-color: #3C7FBC; // visible when highlighting text
 $blockquote-color: #BCB7B7; // $background-color;
 
 // Header
 $header-background-color: #060708;  // Only used when no header image
 $header-text-color: #56DF1A;
-$header-link-color: #E4B218;
+$header-link-color: #E4B218; // links on top left and top right
 $navbar-separator-opacity: 0;
 
 // Feature image for articles
