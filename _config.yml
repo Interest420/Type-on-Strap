@@ -28,6 +28,7 @@ footer_icons:                                           # In _data/social.yml
 share_buttons:                                          # In _data/social.yml
 authors:                                                # In _data/authors.yml
 language:                                               # In _data/language.yml
+color_theme: dark                                       # auto, dark or light
 
 # PAGINATION
 paginate: 5
