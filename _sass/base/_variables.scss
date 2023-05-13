@@ -25,13 +25,13 @@ $x-sm-break: 300px;
 
 // Brand colours
 $theme-color: #100557; // link color (footer)
-$brand-color: #cacfc6; //background
-$background-color: #cacfc6;
+$brand-color: #d0ebcc; //background
+$background-color: #d0ebcc;
 $border-color: rgba(132, 132, 132, 0.3); // rgba recommended if using feature images
 
 // Typography colours
 $text-color: #3b2b18; // main body text color
-$meta: #D57107; //lowest gray for accessible color
+$meta: #D57107; //lowest gray for accessible color, unused for purchaselist
 $link-color: #100557; // when mousing over green text
 $selection-color: #448fd4; // visible when highlighting text
 $blockquote-color: #E5F7EB; // $background-color;
@@ -39,11 +39,11 @@ $blockquote-color: #E5F7EB; // $background-color;
 // Header
 $header-background-color: #90B282;  // Only used when no header image (header under-text?)
 $header-text-color: #64B241;
-$header-link-color: #B45050; // links on top left and top right
+$header-link-color: #10a1a3; // links on top left and top right
 $navbar-separator-opacity: 0;
 
 // Feature image for articles
-$feature-image-text-color: #cacfc6;
+$feature-image-text-color: #d0ebcc;
 $feature-image-size: cover; // options include "cover", "contain", "auto"
 
 //Search colours
@@ -63,7 +63,7 @@ $base00: #E5F7EB !default; // Default Background
 $base01: #444c56 !default; // Lighter Background (Used for status bars)
 $base02: #448fd4 !default; // Selection Background
 $base03: #D57107 !default; // Comments, Invisibles, Line Highlighting
-$base04: #B45050 !default; // Dark Foreground (Used for status bars)
+$base04: #10a1a3 !default; // Dark Foreground (Used for status bars)
 $base05: #3b2b18 !default; // Default Foreground, Caret, Delimiters, Operators, Text Color?
 $base06: #64B241 !default; // Light Foreground (Not often used)
 $base07: #8F8E8E !default; // Light Background (Not often used)
